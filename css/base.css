@@ -3,25 +3,26 @@
     color: rgb(35, 22, 22);
     background-color: beige;
     /* font-weight: bold; */
-    width: 100%;
+   
 }
 main {
-    display: inline-block;
-    max-width:fit-content;
-    max-height: fit-content;
-    margin: 10px 2px 10px 2px;;
-    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width:fit-content;
+    max-height: fit-content; */
+    margin: 10px 7px 10px 100px;;
+    /* float: none; */
     text-align: center;
-    margin-left: 200px;
+    width: 100%;
 }
 main div {
     /* display: inline-block; */
     /* overflow: auto; */
-    margin: 20px 10px 20px 10px;
-    float: left;
+    margin: 18px 5px 5px 5px;
     text-align: center;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+    justify-content: space-evenly;
 }
 
 div img {
@@ -49,12 +50,11 @@ div p {
 }
 
 div h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Indie Flower', cursive;
     font-weight: bolder;
     text-align: center;
-    margin: 10px 5px 10px 5px;
-    padding-bottom: 5px;
+    margin-bottom: 9px;
 }
 
 select {
@@ -70,6 +70,7 @@ header {
     border: rgb(56, 42, 42);
     border-style: groove;
     display: inline-block;
+    width: 100%;
 }
 
 footer {
@@ -78,19 +79,20 @@ footer {
     font-style: italic;
     font-weight: bolder;
     margin: 30px 2px 10px 30px;
+    width: 100%;
 }
 
 #photo-template {
     display:none;
 }
 
-.on {
+/* .on {
     display:block;
 }
 
 .off {
     display: none;
-}
+} */
 
 /* add class that will be removed when */
 h1 {
@@ -101,3 +103,20 @@ h1 {
     margin: 20px 15px 20px 15px;
     padding-bottom: 5px;
 }
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#page1 , #page2 {
+margin: 15px 470px 15px 450px;
+font-size: 30px;
+font-family: 'Indie Flower', cursive;
+border: black;
+border-style:solid;
+border-width: 2px ;
+padding: auto;
+}
+
+
