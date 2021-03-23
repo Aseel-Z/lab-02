@@ -1,0 +1,64 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(35, 22, 22);
+    background-color: beige;
+    /* font-weight: bold; */
+}
+main {
+    display: inline-block;
+    max-width:fit-content;
+    max-height: fit-content;
+}
+div {
+    /* display: inline-block; */
+    /* overflow: auto; */
+    margin: 15px 5px 15px 5px;
+    float: left;
+    text-align: center;
+    max-width:fit-content;
+    max-height: fit-content;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border:rgb(35, 22, 22) ;
+    border-style: double;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder ;
+    font-size: larger;
+}
+
+
+p {
+    text-align: center;
+    font-weight: bolder ;
+    font-size: medium;
+   /* white-space: nowrap;
+    overflow: visible; */
+    /* text-overflow: ellipsis; */
+    margin: 5px 2px 5px 2px;
+    /* word-break: break-all; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+select {
+    font-size: 26px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin: 15px  1000px 15px 900px  ; 
+}
